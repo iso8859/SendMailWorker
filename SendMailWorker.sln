@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "azure_function", "azure_function", "{76948264-AEF8-F1CE-9484-7B4EE0EAAFA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMailFunction", "azure_function\dotnet\SendMailFunction.csproj", "{010B9818-E448-CD52-86D8-1E83463BA2AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{010B9818-E448-CD52-86D8-1E83463BA2AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010B9818-E448-CD52-86D8-1E83463BA2AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010B9818-E448-CD52-86D8-1E83463BA2AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010B9818-E448-CD52-86D8-1E83463BA2AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{010B9818-E448-CD52-86D8-1E83463BA2AC} = {76948264-AEF8-F1CE-9484-7B4EE0EAAFA5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A376F24-F376-470F-AE3A-78AEE5585455}
+	EndGlobalSection
+EndGlobal

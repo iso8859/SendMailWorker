@@ -1,0 +1,19 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "SMTP_HOST": "",
+    "SMTP_PORT": "465",
+    "SMTP_USE_SSL": "true",
+    "SMTP_USERNAME": "",
+    "SMTP_PASSWORD": "",
+    "AUTH_TYPE": "basic",
+    "OAUTH2_CLIENT_ID": "",
+    "OAUTH2_CLIENT_SECRET": "",
+    "OAUTH2_REFRESH_TOKEN": "",
+    "OAUTH2_ACCESS_TOKEN": "",
+    "FROM_EMAIL": "",
+    "FROM_NAME": ""
+  }
+}
