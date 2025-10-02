@@ -21,7 +21,7 @@ public class SendMailHttpFunction
 
     [Function("SendMail")]
     public async Task<HttpResponseData> Run(
-        [HttpTrigger(AuthorizationLevel.Function, "post", "options")] HttpRequestData req)
+        [HttpTrigger(AuthorizationLevel.Anonymous, "post", "options")] HttpRequestData req)
     {
         _logger.LogInformation("SendMail function triggered");
 
